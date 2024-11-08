@@ -15,7 +15,7 @@ a{
     text-decoration: none;
     color: white;
     font-size: 20px;
-    margin: 0 60px;
+    margin: 0 61px;
 }
 a:hover{
     text-decoration: underline;
@@ -31,7 +31,6 @@ a:hover{
     margin: 0 20px;
 }
 .login{
-  
     background-color:rgb(23, 37, 54)  ;
     border: none;
     padding: 10px;
