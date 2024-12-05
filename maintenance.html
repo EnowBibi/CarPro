@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maintenance - CarPro</title>
+    <link rel="stylesheet" href="maintenance.css"/>
+</head>
+<body>
+    <nav>
+        <span class="title">CarPro</span>
+        <a href="index.html">Home</a>
+        <a href="car.html">Car</a>
+        <a href="database.html">Database</a>
+        <a href="maintenance.html" class="present">Maintenance</a>
+        <a href="shop.html">Shop</a>
+        <button class="joinUs">Join Us</button>
+        <button class="login">Login</button>
+    </nav>
+
+    <header class="hero">
+        <h1>Book a Maintenance Appointment</h1>
+        <p>Fill out the form below to schedule your car maintenance.</p>
+    </header>
+
+    <main class="content">
+        <form class="appointment-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required>
+
+            <label for="date">Preferred Date:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Preferred Time:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="service">Service Needed:</label>
+            <select id="service" name="service" required>
+                <option value="oil-change">Oil Change</option>
+                <option value="tire-service">Tire Service</option>
+                <option value="brake-repair">Brake Repair</option>
+                <option value="full-checkup">Full Checkup</option>
+            </select>
+
+            <button type="submit" class="submit-button">Book Appointment</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 CarPro. All rights reserved.</p>
+        <a href="contact.html">Contact Us</a>
+    </footer>
+    <script source="index.js"></script>
+</body>
+</html>
