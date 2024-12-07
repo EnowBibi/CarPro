@@ -14,7 +14,7 @@ nav {
     padding: 20px;
     display: flex;
     align-items: center;
-    justify-content: space-between; /* This will create space between items */
+    justify-content: space-between; 
 }
 
 a {
@@ -115,23 +115,63 @@ h1{
     font-size: 50px;
     margin: 10px 0px;
 }
+
 span{
     font-size: 25px;
 }
-.services {
-    margin: 40px 0;
+.services, .about{
+    margin: 40px 40px;
 }
+
 
 .service-card {
     background-color: #f0f0f0;
     border-radius: 8px;
     padding: 20px;
     margin: 10px 0;
+    animation: glow 5s infinite ;
+    transition: margin 0.5s;
+}
+.service-card:hover{
+    margin: 20px 0;
+    background-color: #ffffff;
 }
 
-.about {
-    margin: 40px 0;
+/*Form styles*/
+
+.appointment-form {
+    display: flex;
+    flex-direction: column;
+    margin: 80px 40px;
 }
+
+.appointment-form label {
+    margin: 10px 0 5px;
+}
+
+.appointment-form input,
+.appointment-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.appointment-form .submit-button {
+    background-color: #003366;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.appointment-form .submit-button:hover {
+    background-color: #005580; 
+}
+
 
 /* Footer styles */
 .footer {
